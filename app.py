@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 #Connect to the HBase database
 def connect_to_hbase():
-    connection = happybase.Connection(os.environ["HBASE_IP"], os.environ["HBASE_PORT"], autoconnect=False)
+    connection = happybase.Connection(os.environ["HBASE_IP"], int(os.environ["HBASE_PORT"]), autoconnect=False)
     connection.open()
     return connection
 
