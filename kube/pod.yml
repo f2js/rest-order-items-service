@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rest-order-items
+  labels:
+    app.kubernetes.io/name: rest-order-items
+spec:
+  containers:
+    - name: test-end
+      image: f2js/rest-order-items
+      ports:
+        - containerPort: 5000
+      env:
+        - name: HBASE_IP
+          value: ${HBASE_IP}
+        - name: HBASE_PORT
+          value: ${HBASE_PORT}
