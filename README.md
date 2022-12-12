@@ -1,4 +1,10 @@
 # rest-order-items-service
+### Group members  
+
+[@josefmarcc ](https://github.com/josefmarcc)
+[@fdinsen](https://github.com/fdinsen)
+[@sebastianbentley ](https://github.com/SebastianBentley)
+[@dahlfrederik ](https://github.com/dahlfrederik)
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/f2js/rest-order-items-service/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/f2js/rest-order-items-service/tree/main)
 
